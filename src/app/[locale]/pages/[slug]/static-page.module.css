@@ -1,0 +1,61 @@
+.main {
+    min-height: 60vh;
+    padding: 40px 0 80px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin: 0 0 40px;
+    text-align: center;
+}
+
+.content {
+    line-height: 1.8;
+    color: #444;
+}
+
+.content h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin: 40px 0 20px;
+}
+
+.content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin: 30px 0 12px;
+}
+
+.content p {
+    margin: 0 0 20px;
+    font-size: 15px;
+}
+
+.content ul,
+.content ol {
+    margin: 0 0 20px;
+    padding-left: 24px;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+.content a {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+.content a:hover {
+    color: #e6c200;
+}

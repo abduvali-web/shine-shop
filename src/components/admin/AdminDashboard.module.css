@@ -1,0 +1,239 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+    background: #f8f9fa;
+}
+
+.sidebar {
+    width: 260px;
+    background: #1a1a2e;
+    color: #fff;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarHeader {
+    padding: 0 25px 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.sidebarHeader h2 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.sidebarHeader span {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 25px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.navItem:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+
+.navIcon {
+    font-size: 18px;
+}
+
+.main {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.viewSiteBtn {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.statCard {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.statCard h3 {
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.statValue {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+}
+
+.recentOrders {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.sectionHeader h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sectionHeader a {
+    font-size: 13px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.tableWrapper {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    text-align: left;
+    padding: 15px;
+    font-size: 12px;
+    color: #999;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.table td {
+    padding: 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.status {
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status.pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status.processing {
+    background: #cce5ff;
+    color: #004085;
+}
+
+.status.shipped {
+    background: #d4edda;
+    color: #155724;
+}
+
+.quickActions h2 {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.actionGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.actionCard {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 600;
+    transition: transform 0.2s;
+}
+
+.actionCard:hover {
+    transform: translateY(-5px);
+}
+
+.loading {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #666;
+}
+
+@media (max-width: 1200px) {
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+}

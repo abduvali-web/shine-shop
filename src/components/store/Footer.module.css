@@ -1,0 +1,175 @@
+.footer {
+    background: #fff;
+    color: #000;
+    padding: 80px 0 40px;
+    border-top: 1px solid #eee;
+    margin-top: 100px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr 1.2fr 1.5fr;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logoText {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #666;
+    max-width: 300px;
+}
+
+.column h4 {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+.column a {
+    display: block;
+    color: #666;
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    transition: color 0.2s;
+}
+
+.column a:hover {
+    color: #000;
+}
+
+.column p {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.newsletter {
+    display: flex;
+}
+
+.newsletter input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #000;
+    font-size: 13px;
+}
+
+.newsletter button {
+    padding: 12px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.bottom {
+    border-top: 1px solid #f5f5f5;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom p {
+    font-size: 12px;
+    color: #999;
+}
+
+.socials {
+    display: flex;
+    gap: 25px;
+}
+
+.socials a {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #666;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    color: #000;
+}
+
+/* Mobile Bar */
+.mobileBar {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    height: 60px;
+    border-top: 1px solid #eee;
+    z-index: 1000;
+    padding: 0 10px;
+}
+
+.mobileItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #666;
+}
+
+.mobileItem span {
+    font-size: 9px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+@media (max-width: 968px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobileBar {
+        display: flex;
+    }
+
+    .footer {
+        padding-bottom: 80px;
+        /* space for bar */
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}

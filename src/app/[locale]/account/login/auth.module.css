@@ -1,0 +1,116 @@
+.container {
+    min-height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+    background: #fafafa;
+}
+
+.authBox {
+    background: #fff;
+    width: 100%;
+    max-width: 450px;
+    padding: 60px 40px;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+}
+
+.error {
+    background: #fdf2f2;
+    color: #dc3545;
+    padding: 12px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.success {
+    background: #f0fdf4;
+    color: #16a34a;
+    padding: 12px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.field label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.field input {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: border-color 0.2s;
+}
+
+.field input:focus {
+    outline: none;
+    border-color: #000;
+}
+
+.submitBtn {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+.submitBtn:hover {
+    background: #333;
+}
+
+.submitBtn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.switch {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+.switch a {
+    color: #000;
+    text-decoration: underline;
+    font-weight: 500;
+}

@@ -1,0 +1,103 @@
+{
+    "Header": {
+        "home": "HOME",
+        "shop": "SHOP",
+        "buildYourOwn": "BUILD YOUR OWN",
+        "personalisedJewellery": "PERSONALISED JEWELLERY",
+        "newArrivals": "NEW ARRIVALS",
+        "contact": "CONTACT US"
+    },
+    "Hero": {
+        "title": "",
+        "subtitle": ""
+    },
+    "Home": {
+        "newArrivals": "NEW ARRIVALS",
+        "viewAll": "VIEW ALL PRODUCTS",
+        "personalised": "PERSONALISED JEWELLERY",
+        "originalDesigns": "Original Designs by me",
+        "bestSellers": "BEST SELLER"
+    },
+    "PopUp": {
+        "title": "OH, HELLO!",
+        "text": "Shopping with us is now even easier! You can pay in £, $ or € and get Free UK Tracked Deliver on all orders over £50 & Free International Tracked Delivery on all orders over £100.",
+        "subtext": "Sign up to our newsletter for exclusive access to new arrivals, style updates and seasonal sales.",
+        "subscribe": "SUBSCRIBE"
+    },
+    "BuildYourOwn": {
+        "title": "CREATE YOUR OWN UNIQUE NECKLACE BY CHOOSING YOUR FAVOURITE CHAIN AND CHARMS!",
+        "howItWorks": "HOW IT WORKS:",
+        "step1": "Start by selecting a chain in the length and color (silver or gold) you prefer, and add it to your cart.",
+        "step2": "Then, browse and choose the charms you love. Add each charm to your cart as well.",
+        "step3": "If you'd like to leave a note (for example, special instructions), you can do so at checkout in the \"Note to Seller\" section.",
+        "tip": "Our tip: For a full and balanced look, we recommend choosing between 5 and 11 charms. We will arrange them beautifully based on their size and shape for the best result. Have fun designing your necklace!",
+        "shopNow": "SHOP NOW"
+    },
+    "Footer": {
+        "brandDescription": "High quality jewellery brand that strives to provide its customers with pieces that foster self-love and self-confidence while fitting into their daily lives.",
+        "navigation": "NAVIGATION",
+        "customerCare": "CUSTOMER CARE",
+        "newsletter": "NEWSLETTER",
+        "newsletterSub": "Subscribe for exclusive access to new arrivals and sales.",
+        "join": "JOIN",
+        "rights": "All rights reserved.",
+        "faqs": "FAQs",
+        "shipping": "Shipping Policy",
+        "contact": "Contact Us",
+        "about": "About Us"
+    },
+    "Shop": {
+        "allProducts": "All Products",
+        "productsCount": "products",
+        "noProducts": "No products found"
+    },
+    "Cart": {
+        "title": "Shopping Cart",
+        "empty": "Your cart is empty",
+        "emptySub": "Add some beautiful jewelry to get started!",
+        "continueShopping": "Continue Shopping",
+        "orderSummary": "Order Summary",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "free": "FREE",
+        "freeShippingPromo": "Add {amount} more for free shipping!",
+        "total": "Total",
+        "checkout": "Proceed to Checkout"
+    },
+    "Auth": {
+        "login": "LOGIN",
+        "loginSub": "Please enter your e-mail and password:",
+        "email": "Email",
+        "password": "Password",
+        "loggingIn": "LOGGING IN...",
+        "noAccount": "Don't have an account?",
+        "createOne": "Create one",
+        "regSuccess": "Registration successful! Please login.",
+        "register": "REGISTER",
+        "registerSub": "Please fill in the information below:",
+        "name": "Full Name",
+        "creating": "CREATING ACCOUNT...",
+        "haveAccount": "Already have an account?",
+        "loginNow": "Login now",
+        "invalid": "Invalid email or password"
+    },
+    "Account": {
+        "title": "MY ACCOUNT",
+        "logout": "LOGOUT",
+        "details": "Account Details",
+        "name": "Name",
+        "email": "Email",
+        "status": "Status",
+        "admin": "Administrator",
+        "customer": "Valued Customer",
+        "adminPanel": "GO TO ADMIN PANEL",
+        "orderHistory": "Order History",
+        "order": "Order",
+        "date": "Date",
+        "orderStatus": "Status",
+        "total": "Total",
+        "noOrders": "You haven't placed any orders yet.",
+        "startShopping": "START SHOPPING",
+        "loading": "Loading your account..."
+    }
+}

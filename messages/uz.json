@@ -1,0 +1,103 @@
+{
+    "Header": {
+        "home": "HOME",
+        "shop": "SHOP",
+        "buildYourOwn": "BUILD YOUR OWN",
+        "personalisedJewellery": "PERSONALISED JEWELLERY",
+        "newArrivals": "NEW ARRIVALS",
+        "contact": "CONTACT US"
+    },
+    "Hero": {
+        "title": "",
+        "subtitle": ""
+    },
+    "Home": {
+        "newArrivals": "YANGI KELGANLAR",
+        "viewAll": "BARCHA MAHSULOTLAR",
+        "personalised": "SHAXSIY TAQINCHOQLAR",
+        "originalDesigns": "Mening original dizaynlarim",
+        "bestSellers": "ENG KO'P SOTILGANLAR"
+    },
+    "PopUp": {
+        "title": "SALOM!",
+        "text": "Biz bilan xarid qilish endi yanada oson! Siz £, $ yoki € da to'lashingiz va £50 dan yuqori balla buyurtmalar uchun Buyuk Britaniya bo'ylab bepul kuzatiladigan yetkazib berish hamda £100 dan yuqori barcha buyurtmalar uchun bepul xalqaro kuzatiladigan yetkazib berishdan foydalanishingiz mumkin.",
+        "subtext": "Yangi kelganlar, uslub yangilanishlari va mavsumiy chegirmalardan eksklyuziv foydalanish uchun xabarnomamizga obuna bo'ling.",
+        "subscribe": "OBUNA BO'LISH"
+    },
+    "BuildYourOwn": {
+        "title": "SEVIMLI ZANJIR VA TUMORLARINGIZNI TANLASH ORQALI O'ZINGIZNING NOYOB BO'YINBOG'INGIZNI YARATING!",
+        "howItWorks": "QANDAY ISHLAYDI:",
+        "step1": "O'zingizga yoqadigan uzunlikdagi va rangdagi (kumush va tilla) zanjirni tanlashdan boshlang va uni savatga qo'shing.",
+        "step2": "Keyin, o'zingizga yoqqan tumorlarni ko'rib chiqing va tanlang. Har bir tumorni ham savatga qo'shing.",
+        "step3": "Agar siz eslatma qoldirmoqchi bo'lsangiz (masalan, maxsus ko'rsatmalar), buni xaridni rasmiylashtirishda \"Sotuvchiga eslatma\" bo'limida amalga oshirishingiz mumkin.",
+        "tip": "Bizning maslahatimiz: To'liq va muvozanatli ko'rinish uchun biz 5 dan 11 tagacha tumor tanlashni tavsiya qilamiz. Biz ularni eng yaxshi natija uchun o'lchami va shakliga qarab chiroyli joylashtiramiz. Bo'yinbog'ingizni loyihalashda zavqlaning!",
+        "shopNow": "HOZIR XARID QILISH"
+    },
+    "Footer": {
+        "brandDescription": "Mijozlariga o'z-o'zini sevish va o'ziga ishonchni mustahkamlaydigan, kundalik hayotlariga mos keladigan mahsulotlarni taqdim etishga intiluvchi yuqori sifatli zargarlik brendi.",
+        "navigation": "NAVIGATSIYA",
+        "customerCare": "MIJOZLARGA XIZMAT",
+        "newsletter": "YANGILIKLAR",
+        "newsletterSub": "Yangi kelganlar va chegirmalardan eksklyuziv foydalanish uchun obuna bo'ling.",
+        "join": "QO'SHILISH",
+        "rights": "Barcha huquqlar himoyalangan.",
+        "faqs": "Tez-tez so'raladigan savollar",
+        "shipping": "Yetkazib berish siyosati",
+        "contact": "Biz bilan bog'lanish",
+        "about": "Biz haqimizda"
+    },
+    "Shop": {
+        "allProducts": "Barcha mahsulotlar",
+        "productsCount": "mahsulotlar",
+        "noProducts": "Mahsulotlar topilmadi"
+    },
+    "Cart": {
+        "title": "Savat",
+        "empty": "Savatingiz bo'sh",
+        "emptySub": "Boshlash uchun ajoyib taqinchoqlarni qo'shing!",
+        "continueShopping": "Xaridni davom ettirish",
+        "orderSummary": "Buyurtma tafsilotlari",
+        "subtotal": "Oraliq jami",
+        "shipping": "Yetkazib berish",
+        "free": "BEPUL",
+        "freeShippingPromo": "Bepul yetkazib berish uchun yana {amount} qo'shing!",
+        "total": "Jami",
+        "checkout": "Xaridga o'tish"
+    },
+    "Auth": {
+        "login": "KIRISH",
+        "loginSub": "E-pochta va parolingizni kiriting:",
+        "email": "E-pochta",
+        "password": "Parol",
+        "loggingIn": "KIRILMOQDA...",
+        "noAccount": "Hisobingiz yo'qmi?",
+        "createOne": "Yaratish",
+        "regSuccess": "Ro'yxatdan o'tish muvaffaqiyatli yakunlandi! Tizimga kiring.",
+        "register": "RO'YXATDAN O'TISH",
+        "registerSub": "Quyidagi ma'lumotlarni to'ldiring:",
+        "name": "To'liq ism",
+        "creating": "HISOB YARATILMOQDA...",
+        "haveAccount": "Hisobingiz bormi?",
+        "loginNow": "Hozir kiring",
+        "invalid": "E-pochta yoki parol noto'g'ri"
+    },
+    "Account": {
+        "title": "MENING HISOBIM",
+        "logout": "CHIQISH",
+        "details": "Hisob ma'lumotlari",
+        "name": "Ism",
+        "email": "E-pochta",
+        "status": "Holati",
+        "admin": "Administrator",
+        "customer": "Qadrli mijoz",
+        "adminPanel": "ADMIN PANELIGA O'TISH",
+        "orderHistory": "Buyurtmalar tarixi",
+        "order": "Buyurtma",
+        "date": "Sana",
+        "orderStatus": "Holati",
+        "total": "Jami",
+        "noOrders": "Siz hali hech qanday buyurtma bermagansiz.",
+        "startShopping": "XARIDNI BOSHLASH",
+        "loading": "Hisobingiz yuklanmoqda..."
+    }
+}
