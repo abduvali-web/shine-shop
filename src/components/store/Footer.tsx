@@ -45,7 +45,7 @@ export default function Footer() {
                     <div className={styles.brand}>
                         <div className={styles.logoWrapper}>
                             <span className={styles.logoText}>SUN KISSED YOU</span>
-                            <span className={styles.logoSubtext}>FINE JEWELLERY</span>
+                            <span className={styles.logoSubtext}>{t('fineJewellery')}</span>
                         </div>
                         <p className={styles.description}>
                             {t('brandDescription')}
@@ -91,10 +91,10 @@ export default function Footer() {
                             <div className={styles.inputWrapper}>
                                 <input
                                     type="email"
-                                    placeholder="Enter your email"
+                                    placeholder={t('emailPlaceholder')}
                                     className={styles.input}
                                 />
-                                <button type="submit" className={styles.submitBtn} aria-label="Subscribe">
+                                <button type="submit" className={styles.submitBtn} aria-label={t('subscribe')}>
                                     <ArrowIcon />
                                 </button>
                             </div>
@@ -109,8 +109,8 @@ export default function Footer() {
                 <div className={styles.bottom}>
                     <p className={styles.copyright}>© 2026 SUN KISSED YOU. {t('rights')}</p>
                     <div className={styles.bottomLinks}>
-                        <Link href="/pages/privacy" className={styles.bottomLink}>Privacy Policy</Link>
-                        <Link href="/pages/terms" className={styles.bottomLink}>Terms of Service</Link>
+                        <Link href="/pages/privacy" className={styles.bottomLink}>{t('privacyPolicy')}</Link>
+                        <Link href="/pages/terms" className={styles.bottomLink}>{t('termsOfService')}</Link>
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@ export default function Footer() {
                         <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
                         <polyline points="9 22 9 12 15 12 15 22" />
                     </svg>
-                    <span>HOME</span>
+                    <span>{h('home')}</span>
                 </Link>
                 <Link href="/shop" className={styles.mobileItem}>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -130,20 +130,20 @@ export default function Footer() {
                         <path d="M3 6h18" />
                         <path d="M16 10a4 4 0 0 1-8 0" />
                     </svg>
-                    <span>SHOP</span>
+                    <span>{h('shop')}</span>
                 </Link>
                 <Link href="/build-your-own" className={styles.mobileItem}>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                         <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
                     </svg>
-                    <span>CREATE</span>
+                    <span>{t('create')}</span>
                 </Link>
                 <Link href="/account" className={styles.mobileItem}>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                         <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
                         <circle cx="12" cy="7" r="4" />
                     </svg>
-                    <span>ACCOUNT</span>
+                    <span>{t('account')}</span>
                 </Link>
                 <Link href="/cart" className={styles.mobileItem}>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -151,7 +151,7 @@ export default function Footer() {
                         <circle cx="19" cy="21" r="1" />
                         <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
                     </svg>
-                    <span>CART</span>
+                    <span>{t('cart')}</span>
                 </Link>
             </div>
         </footer>

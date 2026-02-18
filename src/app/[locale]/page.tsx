@@ -5,8 +5,10 @@ import Footer from '@/components/store/Footer'
 import ProductCard from '@/components/store/ProductCard'
 import PopUp from '@/components/store/PopUp'
 import styles from './page.module.css'
+import { getTranslations } from 'next-intl/server'
 
 export default async function HomePage() {
+  const t = await getTranslations('HomePage')
   // Fetch data
   const [categories, products, settings] = await Promise.all([
     prisma.category.findMany({ orderBy: { order: 'asc' } }),
@@ -35,23 +37,23 @@ export default async function HomePage() {
           </div>
           <div className={styles.heroContent}>
             <div className={styles.heroTextWrapper}>
-              <span className={styles.heroEyebrow}>EXQUISITE CRAFTSMANSHIP</span>
+              <span className={styles.heroEyebrow}>{t('heroEyebrow')}</span>
               <h1 className={styles.heroTitle}>
                 SUN KISSED YOU
               </h1>
 
               <div className={styles.heroCta}>
                 <Link href="/shop" className={styles.btnPrimary}>
-                  EXPLORE COLLECTION
+                  {t('exploreCollection')}
                 </Link>
                 <Link href="/shop/new-arrivals" className={styles.btnSecondary}>
-                  NEW ARRIVALS
+                  {t('newArrivalsCta')}
                 </Link>
               </div>
             </div>
           </div>
           <div className={styles.heroScroll}>
-            <span>SCROLL</span>
+            <span>{t('scroll')}</span>
             <div className={styles.scrollLine} />
           </div>
         </section>
@@ -59,18 +61,18 @@ export default async function HomePage() {
         {/* Featured Collection Banner */}
         <section className={styles.featuredBanner}>
           <div className={styles.bannerContent}>
-            <span className={styles.bannerLabel}>FEATURED</span>
-            <h2 className={styles.bannerTitle}>The Signature Collection</h2>
-            <p className={styles.bannerText}>Discover pieces that define elegance</p>
+            <span className={styles.bannerLabel}>{t('featured')}</span>
+            <h2 className={styles.bannerTitle}>{t('signatureCollection')}</h2>
+            <p className={styles.bannerText}>{t('featuredText')}</p>
           </div>
         </section>
 
-        {/* New Arrivals Section */}
+        {/* {t('newArrivalsTitle')} Section */}
         <section className={styles.section}>
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
-              <span className={styles.sectionLabel}>DISCOVER</span>
-              <h2 className={styles.sectionTitle}>New Arrivals</h2>
+              <span className={styles.sectionLabel}>{t('discover')}</span>
+              <h2 className={styles.sectionTitle}>{t('newArrivalsTitle')}</h2>
               <div className={styles.sectionDivider} />
             </div>
             <div className={styles.productsGrid}>
@@ -85,7 +87,7 @@ export default async function HomePage() {
             </div>
             <div className={styles.centerBtn}>
               <Link href="/shop/new-arrivals" className={styles.viewAllBtn}>
-                <span>VIEW ALL</span>
+                <span>{t('viewAll')}</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
@@ -100,37 +102,37 @@ export default async function HomePage() {
             <div className={styles.splitImageInner} style={{ backgroundImage: "url('/build-your-own.png')" }} />
           </div>
           <div className={styles.splitContent}>
-            <span className={styles.splitLabel}>PERSONALIZE</span>
-            <h2 className={styles.splitTitle}>Create Your Own Unique Piece</h2>
+            <span className={styles.splitLabel}>{t('personalize')}</span>
+            <h2 className={styles.splitTitle}>{t('createUniquePiece')}</h2>
             <p className={styles.splitText}>
-              Design a necklace that tells your story. Choose your chain, select your charms, and we&apos;ll craft something extraordinary just for you.
+              {t('createDescription')}
             </p>
             <ol className={styles.steps}>
               <li>
                 <span className={styles.stepNumber}>01</span>
-                <span>Select your chain in your preferred length and color</span>
+                <span>{t('step1')}</span>
               </li>
               <li>
                 <span className={styles.stepNumber}>02</span>
-                <span>Browse and add your favorite charms</span>
+                <span>{t('step2')}</span>
               </li>
               <li>
                 <span className={styles.stepNumber}>03</span>
-                <span>We&apos;ll arrange them beautifully for you</span>
+                <span>{t('step3')}</span>
               </li>
             </ol>
             <Link href="/build-your-own" className={styles.btnPrimary}>
-              START CREATING
+              {t('startCreating')}
             </Link>
           </div>
         </section>
 
-        {/* Personalised Jewellery */}
+        {/* {t('personalisedJewelleryTitle')} */}
         <section className={styles.section}>
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
-              <span className={styles.sectionLabel}>BESPOKE</span>
-              <h2 className={styles.sectionTitle}>Personalised Jewellery</h2>
+              <span className={styles.sectionLabel}>{t('bespoke')}</span>
+              <h2 className={styles.sectionTitle}>{t('personalisedJewelleryTitle')}</h2>
               <div className={styles.sectionDivider} />
             </div>
             <div className={styles.productsGrid}>
@@ -145,7 +147,7 @@ export default async function HomePage() {
             </div>
             <div className={styles.centerBtn}>
               <Link href="/shop/personalised-jewellery" className={styles.viewAllBtn}>
-                <span>EXPLORE MORE</span>
+                <span>{t('exploreMore')}</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
@@ -157,38 +159,38 @@ export default async function HomePage() {
         {/* Brand Story Section */}
         <section className={styles.brandSection}>
           <div className={styles.brandContent}>
-            <span className={styles.brandLabel}>OUR STORY</span>
-            <h2 className={styles.brandTitle}>Sun Kissed You</h2>
+            <span className={styles.brandLabel}>{t('ourStory')}</span>
+            <h2 className={styles.brandTitle}>SUN KISSED YOU</h2>
             <div className={styles.brandDivider} />
             <p className={styles.brandText}>
-              A high-quality jewellery brand that strives to provide pieces fostering self-love and confidence while fitting seamlessly into daily life.
+              {t('brandText1')}
             </p>
             <p className={styles.brandText}>
-              All pieces are crafted with 18K Gold Plated Stainless Steel — water resistant and tarnish free.
+              {t('brandText2')}
             </p>
             <div className={styles.brandFeatures}>
               <div className={styles.brandFeature}>
                 <span className={styles.featureIcon}>✦</span>
-                <span>18K Gold Plated</span>
+                <span>{t('feature1')}</span>
               </div>
               <div className={styles.brandFeature}>
                 <span className={styles.featureIcon}>✦</span>
-                <span>Water Resistant</span>
+                <span>{t('feature2')}</span>
               </div>
               <div className={styles.brandFeature}>
                 <span className={styles.featureIcon}>✦</span>
-                <span>Tarnish Free</span>
+                <span>{t('feature3')}</span>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Best Sellers */}
+        {/* {t('bestSellersTitle')} */}
         <section className={styles.section}>
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
-              <span className={styles.sectionLabel}>MOST LOVED</span>
-              <h2 className={styles.sectionTitle}>Best Sellers</h2>
+              <span className={styles.sectionLabel}>{t('mostLoved')}</span>
+              <h2 className={styles.sectionTitle}>{t('bestSellersTitle')}</h2>
               <div className={styles.sectionDivider} />
             </div>
             <div className={styles.productsGrid}>
@@ -203,7 +205,7 @@ export default async function HomePage() {
             </div>
             <div className={styles.centerBtn}>
               <Link href="/shop" className={styles.viewAllBtn}>
-                <span>SHOP ALL</span>
+                <span>{t('shopAll')}</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>

@@ -5,7 +5,18 @@
         "buildYourOwn": "BUILD YOUR OWN",
         "personalisedJewellery": "PERSONALISED JEWELLERY",
         "newArrivals": "NEW ARRIVALS",
-        "contact": "CONTACT US"
+        "contact": "CONTACT US",
+        "community": "COMMUNITY",
+        "announcement": "Complimentary Shipping on Orders Over £100",
+        "fineJewellery": "FINE JEWELLERY",
+        "chains": "CHAINS",
+        "charms": "CHARMS",
+        "allCharms": "All Charms",
+        "goldCharms": "Gold Charms",
+        "colourfulCharms": "Colourful Charms",
+        "silverCharms": "Silver Charms",
+        "otherCharms": "Other Charms",
+        "account": "Account"
     },
     "Hero": {
         "title": "",
@@ -44,7 +55,15 @@
         "faqs": "Tez-tez so'raladigan savollar",
         "shipping": "Yetkazib berish siyosati",
         "contact": "Biz bilan bog'lanish",
-        "about": "Biz haqimizda"
+        "about": "Biz haqimizda",
+        "fineJewellery": "FINE JEWELLERY",
+        "emailPlaceholder": "Enter your email",
+        "subscribe": "Subscribe",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service",
+        "create": "CREATE",
+        "account": "ACCOUNT",
+        "cart": "CART"
     },
     "Shop": {
         "allProducts": "Barcha mahsulotlar",
@@ -99,5 +118,36 @@
         "noOrders": "Siz hali hech qanday buyurtma bermagansiz.",
         "startShopping": "XARIDNI BOSHLASH",
         "loading": "Hisobingiz yuklanmoqda..."
+    },
+    "HomePage": {
+        "heroEyebrow": "EXQUISITE CRAFTSMANSHIP",
+        "exploreCollection": "EXPLORE COLLECTION",
+        "newArrivalsCta": "NEW ARRIVALS",
+        "scroll": "SCROLL",
+        "featured": "FEATURED",
+        "signatureCollection": "The Signature Collection",
+        "featuredText": "Discover pieces that define elegance",
+        "discover": "DISCOVER",
+        "newArrivalsTitle": "New Arrivals",
+        "viewAll": "VIEW ALL",
+        "personalize": "PERSONALIZE",
+        "createUniquePiece": "Create Your Own Unique Piece",
+        "createDescription": "Design a necklace that tells your story. Choose your chain, select your charms, and we'll craft something extraordinary just for you.",
+        "step1": "Select your chain in your preferred length and color",
+        "step2": "Browse and add your favorite charms",
+        "step3": "We'll arrange them beautifully for you",
+        "startCreating": "START CREATING",
+        "bespoke": "BESPOKE",
+        "personalisedJewelleryTitle": "Personalised Jewellery",
+        "exploreMore": "EXPLORE MORE",
+        "ourStory": "OUR STORY",
+        "brandText1": "A high-quality jewellery brand that strives to provide pieces fostering self-love and confidence while fitting seamlessly into daily life.",
+        "brandText2": "All pieces are crafted with 18K Gold Plated Stainless Steel — water resistant and tarnish free.",
+        "feature1": "18K Gold Plated",
+        "feature2": "Water Resistant",
+        "feature3": "Tarnish Free",
+        "mostLoved": "MOST LOVED",
+        "bestSellersTitle": "Best Sellers",
+        "shopAll": "SHOP ALL"
     }
 }

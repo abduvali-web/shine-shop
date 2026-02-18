@@ -79,30 +79,30 @@ export default function Header({ categories }: HeaderProps) {
     }, [])
 
     const navItems = [
-        { label: 'HOME', href: '/' },
-        { label: 'SHOP', href: '/shop' },
+        { label: t('home'), href: '/' },
+        { label: t('shop'), href: '/shop' },
         {
-            label: 'BUILD YOUR OWN',
+            label: t('buildYourOwn'),
             href: '/build-your-own',
             dropdown: [
-                { label: 'CHAINS', href: '/build-your-own?step=1' },
+                { label: t('chains'), href: '/build-your-own?step=1' },
                 {
-                    label: 'CHARMS',
+                    label: t('charms'),
                     href: '/build-your-own?step=2',
                     submenu: [
-                        { label: 'All Charms', href: '/build-your-own?step=2' },
-                        { label: 'Gold Charms', href: '/build-your-own?step=2&category=gold' },
-                        { label: 'Colourful Charms', href: '/build-your-own?step=2&category=colourful' },
-                        { label: 'Silver Charms', href: '/build-your-own?step=2&category=silver' },
-                        { label: 'Other Charms', href: '/build-your-own?step=2&category=other' },
+                        { label: t('allCharms'), href: '/build-your-own?step=2' },
+                        { label: t('goldCharms'), href: '/build-your-own?step=2&category=gold' },
+                        { label: t('colourfulCharms'), href: '/build-your-own?step=2&category=colourful' },
+                        { label: t('silverCharms'), href: '/build-your-own?step=2&category=silver' },
+                        { label: t('otherCharms'), href: '/build-your-own?step=2&category=other' },
                     ]
                 }
             ]
         },
-        { label: 'PERSONALISED JEWELLERY', href: '/shop/personalised-jewellery' },
-        { label: 'NEW ARRIVALS', href: '/shop/new-arrivals' },
-        { label: 'COMMUNITY', href: '/community' },
-        { label: 'CONTACT US', href: '/pages/contact' },
+        { label: t('personalisedJewellery'), href: '/shop/personalised-jewellery' },
+        { label: t('newArrivals'), href: '/shop/new-arrivals' },
+        { label: t('community'), href: '/community' },
+        { label: t('contact'), href: '/pages/contact' },
     ]
 
     const languages = [
@@ -122,7 +122,7 @@ export default function Header({ categories }: HeaderProps) {
             <div className={styles.announcement}>
                 <p>
                     <span className={styles.sparkle}>✦</span>
-                    Complimentary Shipping on Orders Over £100
+                    {t('announcement')}
                     <span className={styles.sparkle}>✦</span>
                 </p>
             </div>
@@ -141,7 +141,7 @@ export default function Header({ categories }: HeaderProps) {
                 {/* Logo */}
                 <Link href="/" className={styles.logo}>
                     <span className={styles.logoText}>SUN KISSED YOU</span>
-                    <span className={styles.logoSubtext}>FINE JEWELLERY</span>
+                    <span className={styles.logoSubtext}>{t('fineJewellery')}</span>
                 </Link>
 
                 {/* Desktop Navigation */}
@@ -244,7 +244,7 @@ export default function Header({ categories }: HeaderProps) {
                 <div className={styles.mobileActions}>
                     <Link href="/account" className={styles.mobileActionBtn} onClick={() => setMobileMenuOpen(false)}>
                         <UserIcon />
-                        <span>Account</span>
+                        <span>{t('account')}</span>
                     </Link>
                     <div className={styles.mobileActionBtn}>
                         <GlobeIcon />
