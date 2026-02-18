@@ -1,11 +1,22 @@
 {
     "Header": {
-        "home": "HOME",
-        "shop": "SHOP",
-        "buildYourOwn": "BUILD YOUR OWN",
-        "personalisedJewellery": "PERSONALISED JEWELLERY",
-        "newArrivals": "NEW ARRIVALS",
-        "contact": "CONTACT US"
+        "home": "ГЛАВНАЯ",
+        "shop": "МАГАЗИН",
+        "buildYourOwn": "СОЗДАЙ СВОЁ",
+        "personalisedJewellery": "ПЕРСОНАЛЬНЫЕ УКРАШЕНИЯ",
+        "newArrivals": "НОВИНКИ",
+        "contact": "СВЯЗАТЬСЯ С НАМИ",
+        "community": "СООБЩЕСТВО",
+        "announcement": "Бесплатная доставка при заказе от £100",
+        "fineJewellery": "ЮВЕЛИРНЫЕ ИЗДЕЛИЯ",
+        "chains": "ЦЕПОЧКИ",
+        "charms": "ШАРМЫ",
+        "allCharms": "Все шармы",
+        "goldCharms": "Золотые шармы",
+        "colourfulCharms": "Цветные шармы",
+        "silverCharms": "Серебряные шармы",
+        "otherCharms": "Другие шармы",
+        "account": "Аккаунт"
     },
     "Hero": {
         "title": "",
@@ -44,7 +55,15 @@
         "faqs": "Часто задаваемые вопросы",
         "shipping": "Политика доставки",
         "contact": "Связаться с нами",
-        "about": "О нас"
+        "about": "О нас",
+        "fineJewellery": "ЮВЕЛИРНЫЕ ИЗДЕЛИЯ",
+        "emailPlaceholder": "Введите ваш e-mail",
+        "subscribe": "Подписаться",
+        "privacyPolicy": "Политика конфиденциальности",
+        "termsOfService": "Условия использования",
+        "create": "СОЗДАТЬ",
+        "account": "АККАУНТ",
+        "cart": "КОРЗИНА"
     },
     "Shop": {
         "allProducts": "Все товары",
@@ -99,5 +118,36 @@
         "noOrders": "Вы еще не разместили ни одного заказа.",
         "startShopping": "НАЧАТЬ ПОКУПКИ",
         "loading": "Загрузка вашего аккаунта..."
+    },
+    "HomePage": {
+        "heroEyebrow": "ИЗЫСКАННОЕ МАСТЕРСТВО",
+        "exploreCollection": "ОТКРЫТЬ КОЛЛЕКЦИЮ",
+        "newArrivalsCta": "НОВИНКИ",
+        "scroll": "ПРОКРУТИТЕ",
+        "featured": "ИЗБРАННОЕ",
+        "signatureCollection": "Фирменная коллекция",
+        "featuredText": "Откройте украшения, определяющие элегантность",
+        "discover": "ОТКРОЙТЕ",
+        "newArrivalsTitle": "Новые поступления",
+        "viewAll": "ПОСМОТРЕТЬ ВСЕ",
+        "personalize": "ПЕРСОНАЛИЗИРУЙТЕ",
+        "createUniquePiece": "Создайте свое уникальное украшение",
+        "createDescription": "Создайте ожерелье, которое расскажет вашу историю. Выберите цепочку, подберите шармы, и мы создадим нечто особенное именно для вас.",
+        "step1": "Выберите цепочку нужной длины и цвета",
+        "step2": "Выберите и добавьте любимые шармы",
+        "step3": "Мы красиво разместим их для вас",
+        "startCreating": "НАЧАТЬ СОЗДАВАТЬ",
+        "bespoke": "ИНДИВИДУАЛЬНО",
+        "personalisedJewelleryTitle": "Персональные украшения",
+        "exploreMore": "СМОТРЕТЬ БОЛЬШЕ",
+        "ourStory": "НАША ИСТОРИЯ",
+        "brandText1": "Бренд качественных украшений, который создает изделия, вдохновляющие на любовь к себе и уверенность, идеально вписываясь в повседневную жизнь.",
+        "brandText2": "Все изделия выполнены из нержавеющей стали с покрытием 18K Gold Plated — водостойкие и не тускнеют.",
+        "feature1": "Покрытие 18K Gold Plated",
+        "feature2": "Водостойкость",
+        "feature3": "Не тускнеет",
+        "mostLoved": "САМЫЕ ЛЮБИМЫЕ",
+        "bestSellersTitle": "Бестселлеры",
+        "shopAll": "КУПИТЬ ВСЕ"
     }
 }
